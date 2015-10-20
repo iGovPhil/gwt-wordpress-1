@@ -94,6 +94,13 @@ else{
       <?php dynamic_sidebar( 'footer-4' ) ?>
     </div>
     <?php endif; // if active footer-4 ?>
+
+    <?php if(is_active_sidebar('tot-1')): ?>
+    <div class="columns widget-area tot-1" role="complementary">
+      <?php do_action( 'before_sidebar' ); ?>
+      <?php dynamic_sidebar( 'tot-1' ) ?>
+    </div>
+    <?php endif; // if active tot-1 ?>
   </div>
 </div>
 <div id="darklight"></div>
