@@ -561,7 +561,7 @@ body.contrast #accessibility-widget ul li a#accessibility-fontsize span {
     display: block;
 }
 #darklight {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.25);
     position: fixed;
     top: 0;
     left: 0;
