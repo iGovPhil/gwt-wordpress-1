@@ -9,6 +9,19 @@ function gwt_wp_widgets_init() {
   /**
    * This theme uses wp_nav_menu() in one location.
    */
+
+
+  // custom
+  register_sidebar( array(
+  'name'          => __( 'My Sidebar', 'gwt_wp' ),
+  'id'            => 'my-sidebar',
+  'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+  'after_widget'  => '</aside>',
+  'before_title'  => '<h5 class="widget-title">',
+  'after_title'   => '</h5>',
+  ) );
+
+  //------------------------------------------------------------ 
   register_nav_menus( array(
     'aux_nav' => __( 'Auxiliary Menu', 'gwt_wp' ),
     'topbar_left' => __( 'Left Menu Top bar', 'gwt_wp' ),

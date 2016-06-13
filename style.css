@@ -533,3 +533,7 @@ body.contrast #accessibility-widget ul li a#accessibility-statement span { backg
     cursor: hand;
     z-index: 101;
 }
+
+body {
+	background: #fff;
+}
