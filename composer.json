@@ -1,0 +1,20 @@
+{
+	"name": "iGovPhil/gwt-wordpress",
+	"license": "GPL-2.0-or-later",
+	"description": "Philippine Government WordPress Template",
+	"homepage": "http://i.gov.ph/gwt/wordpress-template/",
+	"keywords": [
+		"wordpress", "wp", "Philippine Govt WP Template"
+	],
+	"support": {
+		"issues": "https://github.com/iGovPhil/gwt-wordpress/issues"
+	},
+	"require-dev": {
+        "squizlabs/php_codesniffer": "3.*",
+        "wp-coding-standards/wpcs": "2.0.*"
+    },
+	"scripts": {
+		"format": "phpcbf --standard=phpcs.ruleset.xml --report-summary --report-source",
+		"lint": "phpcs --standard=phpcs.ruleset.xml --report-summary --report-source"
+	}
+}

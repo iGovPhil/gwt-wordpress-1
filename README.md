@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/wpugph/gwt-wordpress.svg?branch=master)](https://travis-ci.org/wpugph/gwt-wordpress)
+
 #Government Web Template (GWT) for WordPress
 
 Use this as a a guide for creating your banner slider images:
